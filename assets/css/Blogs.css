@@ -1,0 +1,349 @@
+body{
+    background-color: lightcyan;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 33px 157px;
+    gap: 669px;
+    
+    position: absolute;
+    width: 1728px;
+    height: 126px;
+    left: -140px;
+    top: 1px;
+    
+}
+#logo{
+    width: 432px;
+    height: 60px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#nav2{
+    width: 287px;
+    height: 41px; 
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+#index{
+    position: absolute;
+    width: 134px;
+    height: 21px;
+    left: 1271px;
+    top: 42.5px;
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 40px;
+    
+    color: rgba(0, 0, 0, 0.67);
+}
+#titulo1{
+    position: absolute;
+    width: 357px;
+    height: 50px;
+    left: 245px;
+    top: 42.5px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 577px;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: rgba(0, 0, 0, 0.68);
+
+}
+#mac{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 156px;
+    top: 42.5px;
+    
+    background: url(.png);
+}
+
+.princip{
+    position: absolute;
+    width: 1146px;
+    height: 346px;
+    left: -300px;
+    top: 300px;
+    
+}
+#img1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 336px;
+    height: 335px;
+    left: 341px;
+
+    
+    background: url(.jpg), #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 176.5px;
+}
+#titul1{
+    position: absolute;
+    width: 833px;
+    height: 87px;
+    left: calc(50% - 833px/2 + 206.5px);
+    top: calc(50% - 87px/2 - 339px);
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    
+    color: #7858A6;
+    
+}
+#ps1{
+    position: absolute;
+    width: 651px;
+    height: 248px;
+    left: 745px;
+
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #8D9298;
+}
+
+.cat1{
+    position: absolute;
+    width: 262px;
+    height: 43px;
+    left: 20px;
+    top: 700px;
+    
+    background: #7858A6;
+}
+#ps2{
+    position: absolute;
+    width: 147px;
+    height: 31px;
+    left: 58px;
+    top: -25px;
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.vect1{
+    position: absolute;
+    width: 1415px;
+    height: 0px;
+    left: 20px;
+    top: 740px;
+    
+    border: 5px solid #7858A6;
+    background-color: #7858A6;
+}
+.card1{
+    position: absolute;
+    width: 322px;
+    height: 438px;
+    left: 50px;
+    top: 780px;
+}
+#card1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 310px;
+    height: 380px;
+    left: 0px;
+    top: 0px;
+    
+    border: 4px solid #7858A6;
+    border-radius: 49px;    
+}
+#set1{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #8D9298;    
+}
+.card2{
+    position: absolute;
+    width: 322px;
+    height: 436px;
+    left: 404px;
+    top: 780px;
+}
+#card2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 310px;
+    height: 380px;
+    left: 0px;
+    top: 0px;
+    
+    border: 4px solid #7858A6;
+    border-radius: 49px;    
+}
+#set2{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #8D9298;    
+}
+.card3{
+    position: absolute;
+    width: 322px;
+    height: 438px;
+    left: 758px;
+    top: 780px;
+    
+}
+#card3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 310px;
+    height: 380px;
+    left: 0px;
+    top: 0px;
+    
+    border: 4px solid #7858A6;
+    border-radius: 49px;    
+}
+#set3{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #8D9298;    
+}
+.card4{
+    position: absolute;
+    width: 322px;
+    height: 438px;
+    left: 1112px;
+    top: 780px;    
+}
+#card4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 310px;
+    height: 380px;
+    left: 0px;
+    top: 0px;
+    
+    border: 4px solid #7858A6;
+    border-radius: 49px;    
+}
+#set4{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #8D9298;    
+}
+
+footer{
+    position: absolute;
+    width: 1728px;
+    height: 57px;
+    left: 5px;
+    top: 1280px;
+    background-color: red;
+}
+#fot1{
+    position: absolute;
+    left: -1530px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+}
+#fot2{
+    position: right;
+    width: 40px;
+    height: 25px;
+    
+    background: url(.png);
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#fot3{
+    position: right;
+    width: 40px;
+    height: 25px;
+    
+    background: url(.png);
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
